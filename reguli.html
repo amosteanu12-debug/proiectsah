@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reguli din sah</title>
+  <style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #0b0214;
+        color: #e9d5ff;
+        margin: 0;
+        padding: 0;
+        line-height: 1.7;
+    }
+    nav {
+        background-color: rgba(26, 11, 46, 0.95);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid #581c87;
+        padding: 15px 0;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+    nav a {
+        color: #d8b4fe;
+        text-decoration: none;
+        margin: 0 20px;
+        font-weight: 600;
+        font-size: 1.05rem;
+        transition: color 0.3s ease;
+    }
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 30px 20px;
+    }
+
+    .hero-banner {
+        position: relative;
+        text-align: center;
+        padding: 90px 20px;
+        margin-bottom: 40px;
+        border-radius: 16px;
+        overflow: hidden;
+        border: 1px solid #7c3aed;
+        box-shadow: 0 10px 30px rgba(124, 58, 237, 0.3);
+    }
+
+    .hero-banner::before {
+        content: "";
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background-image: linear-gradient(rgba(11, 2, 20, 0.85), rgba(11, 2, 20, 0.9), rgba(11, 2, 20, 0.95)), url('https://images.chesscomfiles.com/uploads/v1/blog/520532.57bbfcd0.5000x5000o.36da37d44e6e.jpeg');
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+    }
+
+    .hero-banner h1 {
+        color: #ffffff;
+        font-size: 3rem;
+        margin-bottom: 15px;
+        text-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+        letter-spacing: 1px;
+    }
+
+    .hero-banner p {
+        color: #d8b4fe;
+        font-size: 1.25rem;
+        max-width: 700px;
+        margin: 0 auto;
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    /* SECȚIUNILE ÎN STIL DE CARDURI ELEGANTE */
+    .section-card {
+        background-color: #150724;
+        border: 1px solid #3b0764;
+        padding: 30px;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .section-card:hover {
+        border-color: #7c3aed;
+        transform: translateY(-3px);
+    }
+
+    h2 {
+        color: #f3e8ff;
+        font-size: 1.8rem;
+        margin-top: 0;
+        border-bottom: 2px solid #581c87;
+        padding-bottom: 10px;
+    }
+
+    p {
+        font-size: 1.05rem;
+        color: #e9d5ff;
+    }
+
+    /* Imagini frumos încadrate */
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 0;
+        border: 1px solid #581c87;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Liste */
+    ul {
+        background-color: #1a0b2e;
+        border: 1px solid #4c1d95;
+        padding: 20px 20px 20px 40px;
+        border-radius: 8px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+    <body>
+    <nav>
+    <a href="index.html">Home</a> | 
+    <a href="istorie.html">istorie</a> | 
+    <a href="reguli.html">Reguli</a> | 
+    <a href="beneficii.html">Beneficii</a> | 
+    <a href="oameni.html">Oameni Notabili</a>
+</nav>
+   <div class="container">
+    <div class="hero-banner">
+    <h1>Regulile Jocului și Descrierea Pieselor</h1>
+    <p>Șahul se joacă după reguli stricte stabilite de-a lungul secolelor. Fiecare tip de piesă are un mod unic de deplasare și de capturare a pieselor adverse.</p>
+    </div>
+    <h2 id="cal">Calul</h2>
+    <img src="https://uk.images.search.yahoo.com/search/images;_ylt=A2RSNwgMqstq7QIAaxtNBQx.;_ylu=Y29sbwNldS13ZXN0LTEEcG9zAzMEdnRpZAMEc2VjA3Ny?fr=gecs&p=horse+chees&imgurl=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fwooden-knight-chess-piece-chessboard-close-up-view-carved-horse-figure-stands-out-its-intricate-details-against-375993299.jpg" alt="" width="400">
+    <p>Calul este singura piesă care poate sări peste alte piese. Se mută în formă de „L” (două pătrate într-o direcție și apoi un pătrat perpendicular).</p>
+    <h2 id="nebun">Nebunul</h2>
+    <img src="https://uk.images.search.yahoo.com/search/images;_ylt=A2RSNwiqqctq7QIAn.pNBQx.;_ylu=Y29sbwNldS13ZXN0LTEEcG9zAzI2BHZ0aWQDBHNlYwNzcg--?norw=1&fr=gecs&p=bishop+chess&imgurl=https%3A%2F%2Fwww.henrychesssets.com%2Fwp-content%2Fuploads%2FDeluxe-Serial-of-Chess-Piece-for-Decor-The-Bishop-10.jpg" alt="" width="400">
+    <p>Nebunul se deplasează pe diagonale, pe orice număr de pătrate libere, păstrând întotdeauna culoarea pătratului de pe care a început partida.</p>
+    
+    <h2 id="dama">Dama (Regina)</h2>
+    <img src="https://uk.images.search.yahoo.com/search/images;_ylt=A2RSLB0uqstqBwMAtWFNBQx.;_ylu=Y29sbwNldS13ZXN0LTEEcG9zAzEEdnRpZAMEc2VjA3Ny?norw=1&fr=gecs&p=queen+chess&imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F045%2F686%2F443%2Foriginal%2Fblack-queen-chess-piece-3d-asset-free-png.png" alt="" width="400">
+    <p>Dama este cea mai puternică piesă de pe tablă. Se poate deplasa în orice direcție (orizontal, vertical sau diagonal) pe orice număr de pătrate libere.</p>
+    
+    <h2 id="regele">Regele</h2>
+    <img src="https://uk.images.search.yahoo.com/search/images;_ylt=A2RSNwheqstq7QIACy9NBQx.;_ylu=Y29sbwNldS13ZXN0LTEEcG9zAzE2BHZ0aWQDBHNlYwNzcg--?norw=1&fr=gecs&p=king+chess&imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F055%2F047%2F789%2Flarge_2x%2Fblack-king-chess-piece-free-png.png" alt="" width="400">
+    <p>Regele este cea mai importantă piesă. Se poate muta un singur pătrat în orice direcție. Dacă regele este atacat direct, se află în „șah” și trebuie salvat obligatoriu.</p>
+    
+    <h2 id="turn">Turnul</h2>
+    <img src="https://uk.images.search.yahoo.com/search/images;_ylt=A2RSNwiAqstq2wIAF_pNBQx.;_ylu=Y29sbwNldS13ZXN0LTEEcG9zAzYEdnRpZAMEc2VjA3Ny?fr=gecs&p=rock+chess&imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F045%2F686%2F319%2Flarge_2x%2Fwhite-rook-chess-piece-3d-graphic-free-png.png" alt="" width="400">
+    <p>Turnul se deplasează în linie dreaptă, pe linii orizontale sau verticale, pe orice număr de pătrate libere.</p>
+    
+    <h2 id="pion">Pionul</h2>
+    <img src="https://uk.images.search.yahoo.com/search/images;_ylt=A2RSNwizqstqvAIAhZRNBQx.;_ylu=Y29sbwNldS13ZXN0LTEEcG9zAzUEdnRpZAMEc2VjA3Ny?fr=gecs&p=chess+pawn&imgurl=https%3A%2F%2Fpng.pngtree.com%2Fpng-clipart%2F20250214%2Foriginal%2Fpngtree-black-pawn-chess-piece-clipart-isolated-png-image_20439369.png" alt="" width="400">
+    <p>Pionul înaintează doar înainte, câte un pătrat pe rând (sau două la prima sa mutare), dar capturează piesele adverse în diagonală.</p>
+    <hr>
+    <h2>1. Cum începe jocul?</h2>
+    <p>Partida de șah se desfășoară întotdeauna pe o tablă pătrată împărțită în 64 de pătrate (8x8), orientată astfel încât colțul din dreapta jos al fiecărui jucător să fie de culoare albă. Jucătorul cu piesele albe este cel care mută primul, oferindu-i un mic avantaj inițial de inițiativă.</p>
+    <p>În faza de debut (cunoscută sub numele de <em>deschidere</em>), jucătorii mută de obicei pionii din fața regelui sau a damei (cum ar fi pionul de la e4 sau d4) pentru a elibera diagonalele și a permite dezvoltarea rapidă a pieselor ușoare, în special a <strong>cailor</strong> și a <strong>nebunilor</strong> spre centrul tablei, controlul centrului fiind esențial pentru succesul strategiei.</p>
+
+    <h2>2. Regulile de desfășurare și elemente tactice</h2>
+    <p>Pe parcursul jocului, pe lângă mutările obișnuite ale pieselor, intervin câteva reguli speciale și criterii de evaluare:</p>
+    <ul>
+        <li><strong>Rocada:</strong> O mutare specială prin care un jucător își pune regele la adăpost și aduce turnul în joc în aceeași mutare. Regele se mută două pătrate spre turn, iar turnul sare peste rege. Este permisă doar dacă nici regele și nici turnul nu au fost mutate anterior, nu există piese între ele și regele nu trece printr-un șah.</li>
+        <li><strong>En passant:</strong> O regulă specială de captură valabilă doar pentru pion. Dacă un pion avansează două pătrate de la poziția de start și ajunge paralel cu un pion adversar, acesta din urmă îl poate captura „în trecere”, pe diagonală, ca și cum pionul ar fi înaintat un singur pătrat. Această captură se poate face strict la mutarea imediat următoare.</li>
+        <li><strong>Promovarea pionului:</strong>Când un pion ajunge pe ultima linie a tablei (linia opusă plecării), el este transformat imediat, la alegerea jucătorului, în orice altă piesă de aceeași culoare (damă, turn, cal sau nebun), cel mai des fiind transformat în damă. </li>
+        <li><strong>Valoarea pieselor:</strong> Pentru a lua decizii tactice bune (schimburi de piese), jucătorii folosesc un sistem de puncte orientativ: <p><strong>Pionul</strong> = 1 punct<p> 
+            <p><strong>Calul și Nebunul</strong> = 3 puncte</p>
+            <p><strong>Turnul</strong> = 5 puncte</p>
+            <p><strong>Dama</strong> = 9 puncte</p> 
+             în timp ce <strong>Regele</strong> are o valoare infinită (deoarece pierderea lui înseamnă pierderea jocului).</li>
+    </ul>
+
+    <h2>3. Finalul partidei</h2>
+    <p>Scopul suprem al șahului este capturarea regelui advers, fază care se poate încheia în moduri diferite:</p>
+    <ul>
+        <li><strong>Șahul și Șah-matul:</strong> Atunci când regele este atacat direct, se anunță „șah”, iar jucătorul trebuie să remedieze situația mutând regele, blocând atacul sau capturând piesa. Când regele este în șah și nu mai are nicio scăpare legală, se declară <strong>șah-mat</strong>, iar partida se încheie cu victoria celui care a atacat.</li>
+        <li><strong>Patul (Remiză):</strong> O situație specială în care jucătorul a cărui rând este să mute nu are nicio mutare legală disponibilă pe tablă, dar regele său <strong>nu</strong> se află în șah. În acest caz, jocul se termină automat la egalitate (remiză prin pat), salvând miraculos un jucător aflat în inferioritate.</li>
+        <li><strong>Regula celor 50 de mutări (Remiză):</strong> Dacă în ultimele 50 de mutări consecutive efectuate de ambii jucători nu s-a mutat niciun pion și nu s-a făcut nicio captură de piesă, oricare dintre jucători poate cere remiza.</li>
+        <li><strong>Tripla repetare (Remiză):</strong> Partida se poate încheia la egalitate dacă exact aceeași poziție pe tablă (cu aceleași mutări posibile pentru ambii jucătorii) se repetă de trei ori consecutiv în timpul jocului.</li>
+    </ul>
+    </div>
+    </body>
+</html>

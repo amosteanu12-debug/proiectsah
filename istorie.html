@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Istoria Sahului</title>
+   <style>
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #0b0214;
+        color: #e9d5ff;
+        margin: 0;
+        padding: 0;
+        line-height: 1.7;
+    }
+
+    /* Bara de navigare fixă sau elegantă sus */
+    nav {
+        background-color: rgba(26, 11, 46, 0.95);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid #581c87;
+        padding: 15px 0;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+    nav a {
+        color: #d8b4fe;
+        text-decoration: none;
+        margin: 0 20px;
+        font-weight: 600;
+        font-size: 1.05rem;
+        transition: color 0.3s ease;
+    }
+    nav a:hover {
+        color: #ffffff;
+        text-shadow: 0 0 10px #c084fc;
+    }
+
+    /* Containerul principal lărgit */
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 30px 20px;
+    }
+
+    /* BANNERUL MARE CU TABLA DE ȘAH ÎN FUNDAL ȘI TITLUL CENTRAT */
+    .hero-banner {
+        position: relative;
+        text-align: center;
+        padding: 90px 20px;
+        margin-bottom: 40px;
+        border-radius: 16px;
+        overflow: hidden;
+        border: 1px solid #7c3aed;
+        box-shadow: 0 10px 30px rgba(124, 58, 237, 0.3);
+    }
+
+    .hero-banner::before {
+        content: "";
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background-image: linear-gradient(rgba(11, 2, 20, 0.85), rgba(11, 2, 20, 0.9), rgba(11, 2, 20, 0.95)), url('https://images.chesscomfiles.com/uploads/v1/blog/520532.57bbfcd0.5000x5000o.36da37d44e6e.jpeg');
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+    }
+
+    .hero-banner h1 {
+        color: #ffffff;
+        font-size: 3rem;
+        margin-bottom: 15px;
+        text-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+        letter-spacing: 1px;
+    }
+
+    .hero-banner p {
+        color: #d8b4fe;
+        font-size: 1.25rem;
+        max-width: 700px;
+        margin: 0 auto;
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    /* SECȚIUNILE ÎN STIL DE CARDURI ELEGANTE */
+    .section-card {
+        background-color: #150724;
+        border: 1px solid #3b0764;
+        padding: 30px;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .section-card:hover {
+        border-color: #7c3aed;
+        transform: translateY(-3px);
+    }
+
+    h2 {
+        color: #f3e8ff;
+        font-size: 1.8rem;
+        margin-top: 0;
+        border-bottom: 2px solid #581c87;
+        padding-bottom: 10px;
+    }
+
+    p {
+        font-size: 1.05rem;
+        color: #e9d5ff;
+    }
+
+    /* Imagini frumos încadrate */
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 0;
+        border: 1px solid #581c87;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Liste */
+    ul {
+        background-color: #1a0b2e;
+        border: 1px solid #4c1d95;
+        padding: 20px 20px 20px 40px;
+        border-radius: 8px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+    <body>
+    <nav>
+    <a href="index.html">Home</a> | 
+    <a href="istorie.html">istorie</a> | 
+    <a href="reguli.html">Reguli</a> | 
+    <a href="beneficii.html">Beneficii</a> | 
+    <a href="oameni.html">Oameni Notabili</a>
+</nav>
+ <div class="container">
+    <div class="hero-banner">
+    <h1>Istoria și Originea Șahului</h1>
+    <p>Șahul are o istorie fascinantă care se întinde pe mai mult de o mie și jumătate de ani. Evoluția sa reflectă schimbarile culturale și geografice prin care a trecut lumea de-a lungul secolelor.</p>
+   </div>
+    <h2>1. Originea: Chaturanga în India Antică</h2>
+    <img src="chaturanga.jpg" alt="Tabla veche Chaturanga" width="400">
+    <p>Strămoșul direct al șahului modern a apărut în India în secolul al VI-lea d.Hr. și se numea <strong>Chaturanga</strong> (care înseamnă „patru divizii ale armatei”: infanterie, cavalerie, elefanți și care de luptă, reprezentate prin piesele de pe tablă). Jocul era o simulare a unei bătălii militare strategice.</p>
+    <h2>2. Răspândirea în Persia și Lumea Arabă</h2>
+    <img src="shatranj.jpg" alt="Manuscris vechi Shatranj" width="400">
+    <p>Din India, jocul s-a răspândit în Imperiul Persan, unde a primit numele de <em>Shatranj</em>. Odată cu cucerirea persană de către arabii musulmani, jocul a pătruns în lumea islamică, unde a devenit extrem de popular. Cărturarii arabi au început să analizeze primele probleme de șah și să scrie tratate strategice despre mutări.</p>
+    <h2>3. Trecerea în Europa Medievală</h2>
+    <img src="medieval.jpg" alt="Șah în Europa Medievală" width="400"> 
+    <p>Șahul a ajuns în Europa prin intermediul Spaniei și Italiei în jurul secolului al X-lea. În perioada medievală, regulile jocului au început să se modifice treptat pentru a deveni mai dinamice. Cea mai importantă revoluție a avut loc la sfârșitul secolului al XV-lea, când Dama (Regina) și Nebunul au primit puteri mult mai mari de mișcare, transformând șahul în jocul rapid și agresiv pe care îl știm astăzi.</p>
+    <h2>4. Era Modernă și Campionatele Mondiale</h2>
+    <img src="https://images.chesscomfiles.com/uploads/v1/news/1579951.982ebe7a.5000x5000o.c667f003999c.png" alt="Turneu modern de șah" width="400">
+    <p>În secolul al XIX-lea, șahul a intrat în era sa modernă prin organizarea primelor turnee internaționale oficiale. Primul campionat mondial oficial de șah a avut loc în 1886, fiind câștigat de Wilhelm Steinitz. Astăzi, șahul este unfenomen global digitalizat, guvernat de FIDE (Federația Internațională de Șah).</p>
+    </div>
+</body>
+</html>
