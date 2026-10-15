@@ -4,137 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Universul Șahului</title>
-  <style>
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #0b0214;
-        color: #e9d5ff;
-        margin: 0;
-        padding: 0;
-        line-height: 1.7;
-    }
-
-    /* Bara de navigare fixă sau elegantă sus */
-    nav {
-        background-color: rgba(26, 11, 46, 0.95);
-        backdrop-filter: blur(10px);
-        border-bottom: 1px solid #581c87;
-        padding: 15px 0;
-        text-align: center;
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-    }
-    nav a {
-        color: #d8b4fe;
-        text-decoration: none;
-        margin: 0 20px;
-        font-weight: 600;
-        font-size: 1.05rem;
-        transition: color 0.3s ease;
-    }
-    nav a:hover {
-        color: #ffffff;
-        text-shadow: 0 0 10px #c084fc;
-    }
-
-    /* Containerul principal lărgit */
-    .container {
-        max-width: 1100px;
-        margin: 0 auto;
-        padding: 30px 20px;
-    }
-
-    /* BANNERUL MARE CU TABLA DE ȘAH ÎN FUNDAL ȘI TITLUL CENTRAT */
-    .hero-banner {
-        position: relative;
-        text-align: center;
-        padding: 90px 20px;
-        margin-bottom: 40px;
-        border-radius: 16px;
-        overflow: hidden;
-        border: 1px solid #7c3aed;
-        box-shadow: 0 10px 30px rgba(124, 58, 237, 0.3);
-    }
-
-    .hero-banner::before {
-        content: "";
-        position: absolute;
-        top: 0; left: 0; width: 100%; height: 100%;
-        background-image: linear-gradient(rgba(11, 2, 20, 0.85), rgba(11, 2, 20, 0.9), rgba(11, 2, 20, 0.95)), url('https://images.chesscomfiles.com/uploads/v1/blog/520532.57bbfcd0.5000x5000o.36da37d44e6e.jpeg');
-        background-size: cover;
-        background-position: center;
-        z-index: -1;
-    }
-
-    .hero-banner h1 {
-        color: #ffffff;
-        font-size: 3rem;
-        margin-bottom: 15px;
-        text-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
-        letter-spacing: 1px;
-    }
-
-    .hero-banner p {
-        color: #d8b4fe;
-        font-size: 1.25rem;
-        max-width: 700px;
-        margin: 0 auto;
-        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    }
-
-    /* SECȚIUNILE ÎN STIL DE CARDURI ELEGANTE */
-    .section-card {
-        background-color: #150724;
-        border: 1px solid #3b0764;
-        padding: 30px;
-        border-radius: 12px;
-        margin-bottom: 30px;
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-        transition: transform 0.3s ease, border-color 0.3s ease;
-    }
-
-    .section-card:hover {
-        border-color: #7c3aed;
-        transform: translateY(-3px);
-    }
-
-    h2 {
-        color: #f3e8ff;
-        font-size: 1.8rem;
-        margin-top: 0;
-        border-bottom: 2px solid #581c87;
-        padding-bottom: 10px;
-    }
-
-    p {
-        font-size: 1.05rem;
-        color: #e9d5ff;
-    }
-
-    /* Imagini frumos încadrate */
-    img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 10px;
-        margin: 20px 0;
-        border: 1px solid #581c87;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    }
-
-    /* Liste */
-    ul {
-        background-color: #1a0b2e;
-        border: 1px solid #4c1d95;
-        padding: 20px 20px 20px 40px;
-        border-radius: 8px;
-    }
-
-    li {
-        margin-bottom: 10px;
-    }
-</style>
 </head>
     <body>
     <nav>
@@ -144,20 +13,12 @@
     <a href="beneficii.html">Beneficii</a> | 
     <a href="oameni.html">Oameni Notabili</a>
 </nav>
-<div class="container">
-
-        <div class="hero-banner">
     <h1>Șahul: Prezentare Generală</h1>
     <p><strong>Șahul</strong> este un joc de strategie pe tablă pentru doi jucători, recunoscut global drept un sport al minții care combină elemente de artă, știință și logică pură. Jocul nu se bazează pe noroc, ci exclusiv pe tactică, strategie și capacitatea de anticipare a mutărilor adversarului.</p>
-    </div>
-    <div class="section-card">
     <h2>Tabla și Câmpul de Luptă</h2>
     <p>Partida se desfășoară pe o tablă pătrată, denumită <strong>tablă de șah</strong>, care este împărțită într-o grilă de 64 de pătrate (8x8), alternate în culori deschise („albe”) și închise („negre”). Liniile orizontale se numesc <em>rânduri</em> (notate de la 1 la 8), iar cele verticale se numesc <em>coloane</em> (notate de la a la h).</p>
-    </div>
-    <div class="section-card">
     <h2>Desfășurarea generală a unei partide</h2>
      <p>Fiecare jucător începe jocul cu 16 piese de o singură culoare (de regulă, alb și negru). Jucătorul cu piesele albe efectuează întotdeauna prima mutare, urmând ca jucătorii să mute alternativ pe rând câte o singură piesă. Scopul suprem este prinderea în capcană a regelui advers (șah-mat), astfel încât acesta să nu mai poată evita capturarea.</p>
      <p>Piesele care se numără în desfășurarea jocului sunt: <a href="reguli.html#cal">calul</a>, <a href="reguli.html#nebun">nebunul</a>, <a href="reguli.html#dama">dama</a>, <a href="reguli.html#regele">regele</a>, <a href="reguli.html#turn">turnul</a>, <a href="reguli.html#pion">pionul</a></p>
-    </div>
     </body>
 </html>         
